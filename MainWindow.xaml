@@ -1,0 +1,33 @@
+﻿<Window  x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800" Background="{x:Null}" >
+    <Grid>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="95*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FF0B0B0C" HorizontalAlignment="Left" Height="419" Stroke="Black" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="345,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="ANNEX" RenderTransformOrigin="1.65,0.188" Foreground="White" FontSize="15" Grid.Column="1"/>
+        <Rectangle Fill="#FF21212C" HorizontalAlignment="Left" Height="242" Margin="180,117,0,0" Stroke="Black" VerticalAlignment="Top" Width="377" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="323,143,0,0" TextWrapping="Wrap" Text="WELCOME ANNEX" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="308,173,0,0" TextWrapping="Wrap" Text="Login into your Account" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="203,210,0,0" TextWrapping="Wrap" Text="E-Mail or Username" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="203,231,0,0" TextWrapping="Wrap" Text="Enter Your E-Mail or Username" VerticalAlignment="Top" Width="238" Foreground="#FF726969" Grid.Column="1">
+            <TextBox.ContextMenu>
+                <ContextMenu/>
+            </TextBox.ContextMenu>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="203,267,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="203,288,0,0" TextWrapping="Wrap" Text="Endter Your Password" VerticalAlignment="Top" Width="238" Foreground="#FF726969" Grid.Column="1">
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="443,267,0,0" TextWrapping="Wrap" Text="Forget password?" VerticalAlignment="Top" FontSize="10" Foreground="White" Grid.Column="1"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="331,325,0,0" VerticalAlignment="Top" Width="75" Background="#FF094AF5" Foreground="White" BorderBrush="#FF766A6A" Click="Button_Click" Grid.Column="1"/>-->
+
+        <Frame Source="/Main.xaml"></Frame>
+    </Grid>
+</Window>
