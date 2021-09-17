@@ -28,6 +28,6 @@
         <TextBlock HorizontalAlignment="Left" Margin="443,267,0,0" TextWrapping="Wrap" Text="Forget password?" VerticalAlignment="Top" FontSize="10" Foreground="White" Grid.Column="1"/>
         <Button Content="Login" HorizontalAlignment="Left" Margin="331,325,0,0" VerticalAlignment="Top" Width="75" Background="#FF094AF5" Foreground="White" BorderBrush="#FF766A6A" Click="Button_Click" Grid.Column="1"/>-->
 
-        <Frame Source="/Main.xaml"></Frame>
+        <Frame Source="/Main.xaml" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Window>

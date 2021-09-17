@@ -9,27 +9,28 @@
       Title="Main">
 
     <Grid>
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="4*"/>
             <ColumnDefinition Width="95*"/>
         </Grid.ColumnDefinitions>
-        <Rectangle Fill="#FF0B0B0C" HorizontalAlignment="Left" Height="419" Stroke="Black" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="345,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="ANNEX" RenderTransformOrigin="1.65,0.188" Foreground="White" FontSize="15" Grid.Column="1"/>
-        <Rectangle Fill="#FF21212C" HorizontalAlignment="Left" Height="242" Margin="180,117,0,0" Stroke="Black" VerticalAlignment="Top" Width="377" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="323,143,0,0" TextWrapping="Wrap" Text="WELCOME ANNEX" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="308,173,0,0" TextWrapping="Wrap" Text="Login into your Account" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="203,210,0,0" TextWrapping="Wrap" Text="E-Mail or Username" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="203,231,0,0" TextWrapping="Wrap" Text="Enter Your E-Mail or Username" VerticalAlignment="Top" Width="238" Foreground="#FF726969" Grid.Column="1">
+        <Rectangle Fill="#FF0B0B0C" HorizontalAlignment="Center" Height="419" Stroke="Black" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="343,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="1.65,0.188" Foreground="White" FontSize="15" Grid.Column="1" Text="Sellerhub"/>
+        <Rectangle Fill="#FF21212C" HorizontalAlignment="Left" Height="242" Margin="180,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="377" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="323,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Grid.Column="1"><Run Text="WELCOME "/><Run Text="Sellerhub"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="308,136,0,0" TextWrapping="Wrap" Text="Login into your Account" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="203,173,0,0" TextWrapping="Wrap" Text="E-Mail or Username" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="203,194,0,0" TextWrapping="Wrap" Text="Enter Your E-Mail or Username" VerticalAlignment="Top" Width="238" Foreground="#FF726969" Grid.Column="1">
             <TextBox.ContextMenu>
                 <ContextMenu/>
             </TextBox.ContextMenu>
         </TextBox>
-        <TextBlock HorizontalAlignment="Left" Margin="203,267,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="203,288,0,0" TextWrapping="Wrap" Text="Endter Your Password" VerticalAlignment="Top" Width="238" Foreground="#FF726969" Grid.Column="1">
+        <TextBlock HorizontalAlignment="Left" Margin="203,230,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="White" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="203,251,0,0" TextWrapping="Wrap" Text="Endter Your Password" VerticalAlignment="Top" Width="238" Foreground="#FF726969" Grid.Column="1">
         </TextBox>
-        <TextBlock HorizontalAlignment="Left" Margin="443,267,0,0" TextWrapping="Wrap" Text="Forget password?" VerticalAlignment="Top" FontSize="10" Foreground="White" Grid.Column="1"/>
-        <Button Content="Login" HorizontalAlignment="Left" Margin="331,325,0,0" VerticalAlignment="Top" Width="75" Background="#FF094AF5" Foreground="White" BorderBrush="#FF766A6A" Click="Button_Click" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="443,230,0,0" TextWrapping="Wrap" Text="Forget password?" VerticalAlignment="Top" FontSize="10" Foreground="White" Grid.Column="1"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="331,288,0,0" VerticalAlignment="Top" Width="75" Background="#FF094AF5" Foreground="White" BorderBrush="#FF766A6A" Click="Button_Click" Grid.Column="1"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="239,319,0,0" VerticalAlignment="Top" Width="261" Source="/Image/character_pc.png"/>
 
     </Grid>
 </Page>
