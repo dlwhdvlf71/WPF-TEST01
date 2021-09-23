@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Notifications.Wpf;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,10 +28,23 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            #region ver1
+            #region 화면 이동
 
-            Uri uri = new Uri("/Page1.xaml", UriKind.Relative);
-            NavigationService.Navigate(uri);
+            //Uri uri = new Uri("/Page1.xaml", UriKind.Relative);
+            //NavigationService.Navigate(uri);
+
+            #endregion
+
+            #region WPF toast notifications
+
+            var notificationManager = new NotificationManager();
+
+            notificationManager.Show(new NotificationContent
+            {
+                Title = "Sample notification",
+                Message = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                Type = NotificationType.Information
+            });
 
             #endregion
         }
